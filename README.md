@@ -13,3 +13,16 @@
   <h3> The compailer of Type Script is : tsc </h3>
   <h3>The extention is: .ts</h3>
 </p>
+
+<h2 align="center">Types</h2>
+
+```TypeScript
+// how to add a number type to a parameter?
+//eg.
+function sum(age: number, name: string, flag: boolean ){
+  // actions
+}
+```
+<p align="center">
+  now these parameters are special datatypes.
+</p>
