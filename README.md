@@ -10,10 +10,10 @@
   The Type Script compailer compailes the new features and advantages that you written in Type Script into JavaScript code.<br>
   Type Script forces us to write better, cleaner and less error code.
 
-  <h3> The compailer of Type Script is : tsc </h3>
-  <h3>The extention is: .ts</h3>
+  ### The compailer of Type Script is : tsc
+  ### The extention is: .ts
 </p>
-
+</br>
 <h2 align="center">Types</h2>
 
 ```TypeScript
@@ -23,6 +23,20 @@ function sum(age: number, name: string, flag: boolean ){
   // actions
 }
 ```
-<p align="center">
-  now these parameters are special datatypes.
-</p>
+now these parameters are special datatypes.</br>
+</br>
+
+### we can add data types to variables at the time of declaration. how?
+
+```TypeScript
+// how to add a type to a variable?
+//eg.
+let number: number;
+let Name: string;
+let flag: boolean;
+
+// assign data to this variables
+number = 1;
+Name = "name";
+flag = true;
+```

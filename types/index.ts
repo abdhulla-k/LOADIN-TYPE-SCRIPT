@@ -13,3 +13,16 @@ let printResult = true;
 let Username = "abdhu";
 
 add( num1, num2, printResult, Username );
+
+
+////////////////////////////////////////
+// how to add a type to a variable;
+////////////////////////////////////////
+let number1: number;
+let myName: string;
+let action: boolean;
+
+// after declaration, assign the data;
+number1 = 1;
+myName = "abdhu";
+action = true;

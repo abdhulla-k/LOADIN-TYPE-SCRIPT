@@ -9,3 +9,13 @@ var num2 = 2;
 var printResult = true;
 var Username = "abdhu";
 add(num1, num2, printResult, Username);
+////////////////////////////////////////
+// how to add a type to a variable;
+////////////////////////////////////////
+var number1;
+var myName;
+var action;
+// after declaration, assign the data;
+number1 = 1;
+myName = "abdhu";
+action = true;
