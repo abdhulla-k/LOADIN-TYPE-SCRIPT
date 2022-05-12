@@ -14,6 +14,9 @@
   ### The extention is: .ts
 </p>
 </br>
+
+<hr>
+
 <h2 align="center">Types</h2>
 
 ```TypeScript
@@ -40,3 +43,64 @@ number = 1;
 Name = "name";
 flag = true;
 ```
+<hr>
+
+### Core Types:-
+- number type: </br>
+  - eg.<br>
+    1, 2, 2.0
+  - note:<br>
+    All numbers. no differentiation between integers or floats
+
+- sting type: <br>
+  - eg.<br>
+  'hi', 'Hello'
+  - note:<br>
+  all text values
+
+- boolean type:<br>
+  - eg.<br>
+  true, false
+  - note:<br>
+  just this two values. no "truthy' or "falsy" values
+
+- object type:
+  - eg.<br>
+  {age: 22, name: 'name'}
+  - note:<br>
+  Any javaScript object, more specific types (type of object are possible ).
+
+- Array type:
+  - eg.<br>
+  [1,2,3]
+  - note:<br>
+  Any javaScript array. type can be flexible or strict (regarding the element types).
+
+- Tuple type:
+  - eg.<br>
+  [1,2]
+  - note:<br>
+  Added by typeScript: Fixed-length array.
+
+- Enum type:
+  - eg.<br>
+  enum{ NEW, OLD }
+  - note:<br>
+  added by typeScript: Automatically enumerated global constant identifiers.
+
+- Any type:
+  - eg<br>
+  *
+  - note:<br>
+  Any kind of value, no specific type assignment.
+
+- <h3>Other important types to learn<h3>
+
+  - Function type
+  - literals
+  - type aliases
+  - union type
+  - never type
+  - any
+  - unknown
+<hr>
